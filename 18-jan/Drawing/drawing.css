@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+.moon-box {
+    width: 100px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.moon-box div {
+    width: 200px;
+    box-shadow: -100px 100px 200px -30px white;
+    height: 200px;
+    border-radius: 500px;
+    background-color: white;
+}
+
+#moon-dark {
+    top: -20px;
+    left: 30px;
+    position: absolute;
+    background-color: black;
+}
+
+.mountains {
+    display: flex;
+    bottom: -130px;
+    position: absolute;
+}
+
+.mountains div {
+    width: 270px;
+    height: 265px;
+    margin: 0 20px;
+    transform: rotate(45deg);
+    background-color: gray;
+}
+
+.bird1,
+.bird2,
+.bird3,
+.bird4,
+.bird5,
+.bird6 {
+    font-size: 18px;
+    font-family: cursive;
+    position: absolute;
+    color: white;
+}
+.bird1 {top: 20px;left: 130px;}
+.bird2 {top: 600px;left: 50px;}
+.bird3 {top: 100px;right: 300px;}
+.bird4 {top: 10px;right: 100px;}
+.bird5 {top: 150px;left: 400px;}
+.bird6 {top: 400px;left: 800px;}

@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-around;
+}
+#card1{
+    height: 600px;
+    width: 400px;
+    transition-duration: .2s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://opengameart.org/sites/default/files/card%20back%20red.png);
+}
+#card1:hover{
+    transform: rotateY(180deg);
+    background-image: url(https://media.istockphoto.com/id/165587843/vector/king-of-spades-two-playing-card.jpg?s=612x612&w=0&k=20&c=tyM6Xd4h9bwQgzQNIsel1KOdg6MOi4ViG5wiAyZ9imE=);
+}

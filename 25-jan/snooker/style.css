@@ -1,0 +1,111 @@
+#table{
+    width: 90%;
+    height: 88vh;
+    margin: 3vh auto;
+    border-radius: 10px;
+    border: 24px solid brown;
+    overflow: hidden;
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#tablediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -650px;
+    transform: rotate(270deg);
+    flex-direction: column;
+}
+.ball{
+    width: 90px;
+    height: 90px;
+    border-radius: 130px;
+    box-shadow: 2px 1px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    border-radius: 130px;
+    justify-content: center;
+    background-color: white;
+}
+#ball10{
+    background-color: gold
+}
+#ball9{
+    background-color: black
+}
+#ball8{
+    background-color: blueviolet;
+}
+#ball7{
+    background-color: red
+}
+#ball6{
+    background-color: white
+}
+#ball5{
+    background-color: yellow
+}
+#ball4{
+    background-color: greenyellow
+}
+#ball3{
+    background-color: pink
+}
+#ball2{
+    background-color: brown
+}
+#ball1{
+    background-color: skyblue
+}
+.row{
+    display: flex;
+    gap: 2px;
+    margin-top: -7px;
+}
+.hole{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-color: gainsboro;
+}
+.hole1{
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+.hole2{
+    position: absolute;
+    top: -40px;
+    left: 48%;
+}
+.hole3{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+.hole4{
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+}
+.hole5{
+    position: absolute;
+    bottom: -40px;
+    left: 48%;
+}
+.hole6{
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+}

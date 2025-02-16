@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png"
+        alt=""
+      />
+
+      <span onclick="userClicked()">
+        Deliver to
+        <br />
+        <b>Pakistan</b>
+      </span>
+
+      <input type="text" placeholder="Search Amazon" />
+
+      <span onclick="userClicked()">
+        Hello, Sign in
+        <br />
+        <b>Account & Lists</b>
+      </span>
+
+      <span onclick="userClicked()">
+        Returns
+        <br />
+        <b>& Orders</b>
+      </span>
+
+      <b>Carts</b>
+    </nav>
+
+    <div id="layout">
+      <div id="box1">
+        <span onclick="userClicked('Rizwan Ahmed')"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
+            alt=""
+          />
+          <h3>Rizwan Ahmed</h3>
+        </span>
+        <span onclick="userClicked('Mudsir')"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
+            alt=""
+          />
+          <h3>Mudsir</h3>
+        </span>
+      </div>
+      <div id="box2">
+        <!-- footer -->
+        <div id="messages">
+          <div class="header-of-ms">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png"
+              alt=""
+            />
+            <h3 id="nameHead">Rizwan Ahmed</h3>
+          </div>
+
+          <!-- messages -->
+          <div class="you">
+            <p class="message y">Hello</p>
+          </div>
+          <div class="me">
+            <p class="message m">Hey</p>
+          </div>
+          <div class="you">
+            <p class="message y">How are you</p>
+          </div>
+        </div>
+        <div id="footer">
+          <input
+            type="text"
+            id="messageInput"
+            placeholder="Type a message..."
+          />
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+#card {
+    height: 370px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px gray;
+    margin: 250px auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: white;
+    transition-duration: .5s;
+}
+p{
+    font-size: 35px;
+}
+span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: goldenrod;
+}
+#card:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.2);
+    box-shadow: inset 0 0 5px 5px gainsboro;
+}

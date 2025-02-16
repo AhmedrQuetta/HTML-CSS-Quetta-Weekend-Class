@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+#navbar{
+    background-color: black;
+    padding: 20px;
+}
+#logo{
+    height: 50px;
+}
+/* cover */
+#cover{
+    width: 100vw;
+}

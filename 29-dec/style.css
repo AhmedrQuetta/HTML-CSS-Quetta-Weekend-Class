@@ -1,0 +1,27 @@
+#login-box{
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15vh auto;
+    background-color: white;
+    transition-duration: .5s;
+    display: flex;
+    flex-direction: column;
+}
+#login-box input{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#login-box button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(123, 41, 27);
+}
