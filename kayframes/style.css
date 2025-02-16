@@ -1,0 +1,63 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  position: relative;
+  animation: smallMove 5s infinite;
+}
+
+@keyframes mymove {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 95%;
+  }
+  50% {
+    left: 95%;
+    top: 87vh;
+  }
+  75% {
+    left: 0px;
+    top: 87vh;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes smallMove {
+  0% {
+    left: 5%;
+    top: 5px;
+    background-color: burlywood;
+  }
+  25% {
+    top: 5px;
+    background-color: hotpink;
+    left: 89%;
+}
+50% {
+    left: 89%;
+    background-color: chocolate;
+    top: 65vh;
+  }
+  75% {
+    left: 6%;
+    top: 65vh;
+  }
+  100% {
+    left: 6%;
+    top: 5px;
+    background-color: blueviolet;
+  }
+}
